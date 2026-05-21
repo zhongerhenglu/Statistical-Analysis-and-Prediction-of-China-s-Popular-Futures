@@ -6,14 +6,14 @@
 |题目|能源化工、新能源、地产基建、贵金属|
 |小组|第 4 组|
 |成员|25210227 荣渝渝｜25210229 沈仕沐｜25210246 王丽娜｜25210257 吴玥｜25210271 连伊丽｜25210275 薛佳程｜25210285 易忠凯|
-|GitHub 主仓库|[https://github\.com/zhongerhenglu/ds2026\-G04\-T\-B2\_FedPolicyAssets](https://github.com/zhongerhenglu/ds2026-G04-T-B2_FedPolicyAssets)|
-|GitHub 子仓库|[https://github\.com/zhongerhenglu/Statistical\-Analysis\-and\-Prediction\-of\-China\-s\-Popular\-Futures](https://github.com/zhongerhenglu/Statistical-Analysis-and-Prediction-of-China-s-Popular-Futures)|
-|Pages 在线报告|[https://zhongerhenglu\.github\.io/ds2026\-G04\-T\-B2\_FedPolicyAssets/](https://zhongerhenglu.github.io/ds2026-G04-T-B2_FedPolicyAssets/)|
+|GitHub 主仓库|[https://github.com/zhongerhenglu/Statistical-Analysis-and-Prediction-of-China-s-Popular-Futures)|
+|GitHub 子仓库|[)|
+|Pages 在线报告|[)|
 |提交日期|2026\-05\-23|
 
 ## 📖 项目简介
 
-本项目聚焦 **美联储货币政策周期**，深入分析加息、降息对全球资产价格的传导效应，同时结合中国热门期货市场，围绕四大核心主线（能源化工、新能源、地产基建、贵金属），开展数据收集、清洗、分析与预测工作，清晰呈现期货品种的价格逻辑、资金热度及未来趋势，为投资决策提供专业数据参考。
+本项目聚焦 中国热门期货市场，围绕四大核心主线（能源化工、新能源、地产基建、贵金属），开展数据收集、清洗、分析与预测工作，清晰呈现期货品种的价格逻辑、资金热度及未来趋势，为投资决策提供专业数据参考。
 
 📅 研究时间范围：2020–2025 年（月度/日度频率）
 
