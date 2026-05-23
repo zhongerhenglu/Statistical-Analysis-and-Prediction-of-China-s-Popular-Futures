@@ -44,33 +44,33 @@
 ---
 
 ## 📂 标准目录结构
-Statistical-Analysis-and-Prediction-of-China-s-Popular-Futures/
-├── README.md # 项目总说明（本文件）
-├── requirements.txt # Python 依赖环境
-├── .gitignore # Git 忽略文件
-├── _quarto.yml # Quarto 报告配置文件
-│
-├── Team02-G04 - 原油 SC + PTA 投资分析 /
-├── Team02-G04 - 螺纹钢 RB、铁矿石 I 投资分析 /
-├── Team02-G04 - 黄金现货投资分析 /
-├── Team02-G04 - 碳酸锂 LC 期货投资分析 /
-│
-└── 每个子模块统一结构：
-├── README.md # 模块说明
-├── report.md/report.qmd # 完整分析报告
-├── slides.md # 汇报幻灯片
-├── slides.pdf # 幻灯片 PDF
-├── code/
-│ ├── 01_data_collect.py
-│ ├── 02_data_clean.py
-│ ├── 03_visual_eda.py
-│ └── 04_analysis_conclusion.py
-├── data/
-│ ├── data_raw/
-│ └── data_clean/
-└── output/
-├── charts/ # 7 张标准可视化图
-└── conclusion.txt # 数据驱动结论
+Statistical-Analysis-and-Prediction-of-China-s-Popular-Futures/  
+├── README.md # 项目总说明（本文件）  
+├── requirements.txt # Python 依赖环境  
+├── .gitignore # Git 忽略文件  
+├── _quarto.yml # Quarto 报告配置文件  
+│  
+├── Team02-G04 - 原油 SC + PTA 投资分析 /  
+├── Team02-G04 - 螺纹钢 RB、铁矿石 I 投资分析 /  
+├── Team02-G04 - 黄金现货投资分析 /  
+├── Team02-G04 - 碳酸锂 LC 期货投资分析 /  
+│  
+└── 每个子模块统一结构：  
+├── README.md # 模块说明  
+├── report.md/report.qmd # 完整分析报告  
+├── slides.md # 汇报幻灯片  
+├── slides.pdf # 幻灯片 PDF  
+├── code/  
+│ ├── 01_data_collect.py  
+│ ├── 02_data_clean.py  
+│ ├── 03_visual_eda.py  
+│ └── 04_analysis_conclusion.py  
+├── data/  
+│ ├── data_raw/  
+│ └── data_clean/  
+└── output/  
+├── charts/ # 7 张标准可视化图  
+└── conclusion.txt # 数据驱动结论  
 
 ---
 ## 🔧 运行环境（可直接安装）
