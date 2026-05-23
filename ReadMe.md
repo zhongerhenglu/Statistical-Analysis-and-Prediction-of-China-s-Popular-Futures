@@ -16,17 +16,22 @@
 
 ## 📖 项目简介
 本项目围绕**中国四大核心产业链期货**开展全流程量化分析：数据获取 → 标准化清洗 → 探索性分析 → 可视化 → 决策结论。
-严格按照课程要求：**明确决策主体、基于真实政策与市场背景、输出可落地的数据驱动结论**。
 
+## 决策主体
+中国期货交易者
+
+## 研究目标
+为交易者提供跨品种套利、趋势交易、风险管理的量化依据。
+
+## 痛点
+价格波动剧烈、极端行情频发、获利机会有限、主观决策风险高。
+
+## 研究板块
 研究时间：2010-01-01 — 2025-12-31（日度高频数据）
-研究对象：
 - 能源化工：原油 SC、PTA
 - 地产基建：螺纹钢 RB、铁矿石 I
-- 贵金属：沪金 AU
 - 新能源：碳酸锂 LC、工业硅 SI
-
-项目目标：
-为**实体企业、贸易商、期货交易者、机构投资者**提供价格联动、波动风险、趋势特征的量化依据，支持套期保值、趋势交易、风险管理等真实决策。
+- 贵金属：沪金 AU
 
 ---
 
@@ -45,32 +50,36 @@
 
 ## 📂 标准目录结构
 Statistical-Analysis-and-Prediction-of-China-s-Popular-Futures/  
-├── README.md # 项目总说明（本文件）  
-├── requirements.txt # Python 依赖环境  
-├── .gitignore # Git 忽略文件  
-├── _quarto.yml # Quarto 报告配置文件  
+├── README.md  
+├── requirements.txt  
+├── .gitignore  
+├── _quarto.yml  
+├── index.qmd  
 │  
-├── Team02-G04 - 原油 SC + PTA 投资分析 /  
-├── Team02-G04 - 螺纹钢 RB、铁矿石 I 投资分析 /  
-├── Team02-G04 - 黄金现货投资分析 /  
-├── Team02-G04 - 碳酸锂 LC 期货投资分析 /  
+├── Team02-G04-原油SC + PTA投资分析/  
+│   ├── README.md  
+│   ├── report.md  
+│   ├── slides.md  
+│   ├── slides.pdf  
+│   ├── code/  
+│   │   ├── 01_data_collect.py  
+│   │   ├── 02_data_clean.py  
+│   │   ├── 03_visual_eda.py  
+│   │   └── 04_analysis_conclusion.py  
+│   ├── data/  
+│   │   ├── raw/  
+│   │   └── clean/  
+│   └── output/  
+│       └── charts/  
 │  
-└── 每个子模块统一结构：  
-├── README.md # 模块说明  
-├── report.md/report.qmd # 完整分析报告  
-├── slides.md # 汇报幻灯片  
-├── slides.pdf # 幻灯片 PDF  
-├── code/  
-│ ├── 01_data_collect.py  
-│ ├── 02_data_clean.py  
-│ ├── 03_visual_eda.py  
-│ └── 04_analysis_conclusion.py  
-├── data/  
-│ ├── data_raw/  
-│ └── data_clean/  
-└── output/  
-├── charts/ # 7 张标准可视化图  
-└── conclusion.txt # 数据驱动结论  
+├── Team02-G04-螺纹钢RB、铁矿石I投资分析/  
+│   └── 同上结构  
+│
+├── Team02-G04-碳酸锂LC期货投资分析/  
+│   └── 同上结构  
+│  
+└── Team02-G04-黄金现货投资分析/  
+    └── 同上结构  
 
 ---
 ## 🔧 运行环境（可直接安装）
@@ -86,16 +95,15 @@ seaborn>=0.12.0
 scipy>=1.10.0
 
 🚀 运行步骤（标准四步）
-数据获取  
-python code/01_data_collect.py  
-标准化清洗  
-python code/02_data_clean.py  
-可视化分析（7 张标准图）  
-python code/03_visual_eda.py  
-统计分析与结论输出  
-python code/04_analysis_conclusion.py  
-生成报告（Quarto）  
-quarto render report.qmd  
+
+## 运行说明
+```bash
+pip install -r requirements.txt
+python code/01_data_collect.py
+python code/02_data_clean.py
+python code/03_visual_eda.py
+python code/04_analysis_conclusion.py
+quarto render report.qmd
 
 📌 提交规范符合性说明
 ✅ 每个模块均包含：决策主体 → 政策背景 → 数据 → 统计 → 可视化 → 结论 → 局限

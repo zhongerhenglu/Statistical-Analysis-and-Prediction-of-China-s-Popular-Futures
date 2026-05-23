@@ -2,24 +2,22 @@ project:
   type: book
 
 book:
-  title: "中国大宗商品期货量化分析报告"
-  author: "Team02-G04"
-  date: "2026-05-23"
+  title: 大宗商品期货量化分析报告
+  author: Team02-G04
+  date: 2026-05-23
   chapters:
     - index.qmd
     - Team02-G04-原油SC + PTA投资分析/report.qmd
     - Team02-G04-螺纹钢RB、铁矿石I投资分析/report.qmd
-    - Team02-G04-黄金现货投资分析/report.qmd
     - Team02-G04-碳酸锂LC期货投资分析/report.qmd
+    - Team02-G04-黄金现货投资分析/report.qmd
 
 format:
   html:
     theme: cosmo
     toc: true
     number-sections: true
-    code-fold: true
   pdf:
     documentclass: report
     toc: true
     number-sections: true
-    lang: zh-CN

@@ -1,0 +1,8 @@
+# 大宗商品期货量化分析
+## Team02-G04
+
+### 板块
+- [能源化工：SC、PTA](Team02-G04-原油SC + PTA投资分析/report.md)
+- [地产基建：RB、I](Team02-G04-螺纹钢RB、铁矿石I投资分析/report.md)
+- [新能源：LC、SI](Team02-G04-碳酸锂LC期货投资分析/report.md)
+- [贵金属：AU](Team02-G04-黄金现货投资分析/report.md)

@@ -1,28 +1,12 @@
-# Python 缓存
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-ENV/
-
-# 数据文件
 *.csv
 *.xlsx
-*.parquet
-data/
-output/
-
-# 图片与输出
 *.png
-*.jpg
 *.pdf
 *.txt
-
-# 系统文件
+data/
+output/
 .DS_Store
-*.log
-*.tmp
-*.swp
+.env
+.venv
