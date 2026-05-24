@@ -17,8 +17,15 @@
 ## 📖 项目简介
 本项目围绕**中国四大核心产业链期货**开展全流程量化分析：数据获取 → 标准化清洗 → 探索性分析 → 可视化 → 决策结论。
 
-## 决策主体
-中国期货交易者
+## 决策主体与选题摘要
+本报告面向中国期货普通交易者与中小投资者，基于2010‑2026年四大板块期货数据，结合中国五年规划、货币财政政策、美联储全球资金成本，量化各品种阶段性投资性价比，为套利、趋势交易、风险管理提供可落地建议。
+
+## 文件说明
+- `report.md`：总分析报告正文
+- `report.ipynb`：含代码、图表、统计结果
+- `report.html`：网页可直接打开版
+- `slides.md`/`slides.pdf`：课程顶层汇报PPT
+- `data/`：数据获取与清洗脚本
 
 ## 研究目标
 为交易者提供跨品种套利、趋势交易、风险管理的量化依据。
@@ -34,7 +41,6 @@
 - 贵金属：沪金 AU
 
 ---
-
 ## 👥 任务分工
 | 学号姓名 | 负责板块 | 核心任务 |
 |---|---|---|
@@ -49,37 +55,32 @@
 ---
 
 ## 📂 标准目录结构
-Statistical-Analysis-and-Prediction-of-China-s-Popular-Futures/  
-├── README.md  
-├── requirements.txt  
-├── .gitignore  
-├── _quarto.yml  
-├── index.qmd  
-│  
-├── Team02-G04-原油SC + PTA投资分析/  
-│   ├── README.md  
-│   ├── report.md  
-│   ├── slides.md  
-│   ├── slides.pdf  
-│   ├── code/  
-│   │   ├── 01_data_collect.py  
-│   │   ├── 02_data_clean.py  
-│   │   ├── 03_visual_eda.py  
-│   │   └── 04_analysis_conclusion.py  
-│   ├── data/  
-│   │   ├── raw/  
-│   │   └── clean/  
-│   └── output/  
-│       └── charts/  
-│  
-├── Team02-G04-螺纹钢RB、铁矿石I投资分析/  
-│   └── 同上结构  
-│
-├── Team02-G04-碳酸锂LC期货投资分析/  
-│   └── 同上结构  
-│  
-└── Team02-G04-黄金现货投资分析/  
-    └── 同上结构  
+submissions/25PB/Team02‑G04/  
+├─ data/                         # 汇总总数据集  
+├─ image/                        # 备用图片文件夹  
+├─ output/  
+│  └─ charts/                    # 分析输出图表  
+│     ├─ fed_rate.png  
+│     ├─ macro_liquidity.png  
+│     ├─ profit_structure.png  
+│     └─ trend_2010_2026.png  
+├─ Team02‑G04‑原油SC + PTA投资分析/    # 子板块1  
+│  ├─ charts/  
+│  └─ data/  
+├─ Team02‑G04‑碳酸锂期货LC投资分析/    # 子板块2  
+├─ Team02‑G04‑螺纹钢RB、铁矿石I投资分析/# 子板块3  
+│  └─ data_clean/  
+├─ Team02‑G04‑黄金现货投资分析/        # 子板块4  
+│  ├─ charts/  
+│  └─ data/  
+├─ merge_all_data_to_root.py     # 子板块数据合并脚本  
+├─ readme.md                     # 项目说明、数据方法、文件清单  
+├─ report.ipynb                  # 完整分析代码、数据处理、绘图  
+├─ report.md                     # 研究报告文本版  
+├─ report.html                   # 报告网页版  
+├─ requirements.txt              # Python依赖包  
+├─ slides.md                     # 汇报PPT源文件  
+└─ Slides.pdf                    # 导出PDF汇报文件  
 
 ---
 ## 🔧 运行环境（可直接安装）
